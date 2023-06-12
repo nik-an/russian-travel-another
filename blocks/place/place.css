@@ -16,10 +16,12 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
     padding-bottom: 73px;
     gap: 0 28px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
